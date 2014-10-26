@@ -1,2 +1,2 @@
-# google-music-desktop
+# kindle-webkit
 1.0.0 - Initial release
