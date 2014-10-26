@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Set up target directory
-install_dir="/usr/local/lib/google-music-webkit"
+install_dir="/usr/local/lib/kindle-webkit"
 
 # If we are not installed via symlink, do so
 if ! test -d "$install_dir"; then
@@ -13,17 +13,17 @@ fi
 # Overwrite existing Google Music Webkit application
 applications_dir="$HOME/.local/share/applications"
 mkdir -p "$applications_dir"
-cat > "$applications_dir/google-music-webkit.desktop" <<EOF
+cat > "$applications_dir/kindle-webkit.desktop" <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
 Terminal=false
 Exec=nw $install_dir/
 Icon[en_US]=$install_dir/lib/icon.png
-Name[en_US]=Google Music Webkit
+Name[en_US]=Kindle Webkit
 Icon=$install_dir/lib/icon.png
-Name=Google Music Webkit
-Comment=Open Google Music Webkit
+Name=Kindle Webkit
+Comment=Open Kindle Webkit
 EOF
 
 # Notify user of completion

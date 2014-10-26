@@ -23,11 +23,9 @@
   ],
   "main": "lib/index.html",
   "window": {
-    "show": false,
-    "show_in_taskbar": false
+    "show": false
   },
   "webkit": {
-    "plugin": true
   },
   "keywords": [
     "google",
@@ -37,7 +35,5 @@
   ],
   "private": true,
   "dependencies": {
-    "obj-extend": "~0.1.0",
-    "forward-events": "0.0.1"
   }
 }
