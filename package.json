@@ -1,0 +1,43 @@
+{
+  "name": "google-music-webkit",
+  "description": "Google Music desktop client via node-webkit",
+  "version": "1.2.0",
+  "homepage": "https://github.com/twolfson/google-music-webkit",
+  "author": {
+    "name": "Todd Wolfson",
+    "email": "todd@twolfson.com",
+    "url": "http://twolfson.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twolfson/google-music-webkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twolfson/google-music-webkit/issues"
+  },
+  "licenses": [
+    {
+      "type": "UNLICENSE",
+      "url": "https://github.com/twolfson/google-music-webkit/blob/master/UNLICENSE"
+    }
+  ],
+  "main": "lib/index.html",
+  "window": {
+    "show": false,
+    "show_in_taskbar": false
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "keywords": [
+    "google",
+    "music",
+    "desktop",
+    "webkit"
+  ],
+  "private": true,
+  "dependencies": {
+    "obj-extend": "~0.1.0",
+    "forward-events": "0.0.1"
+  }
+}
