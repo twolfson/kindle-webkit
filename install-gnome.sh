@@ -7,10 +7,10 @@ if ! test -d "$install_dir"; then
   sudo ln -s "$PWD" "$install_dir"
 # Otherwise, inform the user of the status
 else
-  echo "Google Music Webkit already symlinked to /usr/local/lib. Continuing with next steps..." 1>&2
+  echo "Kindle Webkit already symlinked to /usr/local/lib. Continuing with next steps..." 1>&2
 fi
 
-# Overwrite existing Google Music Webkit application
+# Overwrite existing Kindle Webkit application
 applications_dir="$HOME/.local/share/applications"
 mkdir -p "$applications_dir"
 cat > "$applications_dir/kindle-webkit.desktop" <<EOF
