@@ -8,7 +8,7 @@ Thin wrapper around [Kindle Cloud Reader][] via [node-webkit][]
 
 - Kindle as a standalone application on Linux
 
-[Google Music]: http://music.google.com/
+[Kindle Cloud Reader]: https://read.amazon.com/
 [node-webkit]: https://github.com/rogerwang/node-webkit
 
 ## Requirements

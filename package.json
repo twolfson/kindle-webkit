@@ -1,8 +1,8 @@
 {
   "name": "kindle-webkit",
-  "description": "Google Music desktop client via node-webkit",
-  "version": "1.2.0",
-  "homepage": "https://github.com/twolfson/google-music-webkit",
+  "description": "Kindle desktop client via node-webkit",
+  "version": "1.0.0",
+  "homepage": "https://github.com/twolfson/kindle-webkit",
   "author": {
     "name": "Todd Wolfson",
     "email": "todd@twolfson.com",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twolfson/google-music-webkit.git"
+    "url": "git://github.com/twolfson/kindle-webkit.git"
   },
   "bugs": {
-    "url": "https://github.com/twolfson/google-music-webkit/issues"
+    "url": "https://github.com/twolfson/kindle-webkit/issues"
   },
   "licenses": [
     {
       "type": "UNLICENSE",
-      "url": "https://github.com/twolfson/google-music-webkit/blob/master/UNLICENSE"
+      "url": "https://github.com/twolfson/kindle-webkit/blob/master/UNLICENSE"
     }
   ],
   "main": "lib/index.html",
@@ -29,8 +29,7 @@
   "webkit": {
   },
   "keywords": [
-    "google",
-    "music",
+    "kindle",
     "desktop",
     "webkit"
   ],

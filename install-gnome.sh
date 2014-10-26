@@ -25,4 +25,4 @@ Comment=Open Kindle Webkit
 EOF
 
 # Notify user of completion
-echo "Google Music Webkit successfully installed!"
+echo "Kindle Webkit successfully installed!"
