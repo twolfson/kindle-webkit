@@ -19,9 +19,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Exec=nw $install_dir/
-Icon[en_US]=$install_dir/lib/icon.png
 Name[en_US]=Kindle Webkit
-Icon=$install_dir/lib/icon.png
 Name=Kindle Webkit
 Comment=Open Kindle Webkit
 EOF
