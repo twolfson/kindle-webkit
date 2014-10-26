@@ -1,5 +1,5 @@
 {
-  "name": "google-music-webkit",
+  "name": "kindle-webkit",
   "description": "Google Music desktop client via node-webkit",
   "version": "1.2.0",
   "homepage": "https://github.com/twolfson/google-music-webkit",
@@ -22,6 +22,7 @@
     }
   ],
   "main": "lib/index.html",
+  "single-instance": false,
   "window": {
     "show": false
   },
